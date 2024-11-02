@@ -1,8 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+<img src="https://github.com/user-attachments/assets/45ca4357-c1fa-4069-84f1-e4353af2f2f1" alt="ChainInsight Logo" width="200" />
+
+
+# ChainInsight
+
+ChainInsight is a powerful platform designed to enhance your understanding of blockchain transactions by leveraging the robust capabilities of the Odos and Noves APIs. This application provides a user-friendly interface to analyze and describe Ethereum-based transactions in detail, making it accessible for both beginners and experienced users.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and install the dependencies:
+
+```bash
+git clone https://your-repository-url.git
+cd chaininsight
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+To run the development server:
 
 ```bash
 npm run dev
@@ -16,25 +35,27 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Features
+
+- **Transaction Description**: Utilizes the Noves API to fetch and display detailed descriptions of blockchain transactions.
+- **EVM Chain Integration**: Seamless interaction with multiple Ethereum Virtual Machine compatible chains.
+- **Intuitive UI**: A clean and simple interface that is easy to navigate, enhancing user experience.
+
+## API Integration
+
+- **Odos API**: Connects with Odos API to fetch blockchain data in an optimized manner.
+- **Noves API**: Integrates Noves API to provide enriched transaction descriptions.
+
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about how ChainInsight utilizes Next.js, refer to the [Next.js Documentation](https://nextjs.org/docs).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Deploying
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy your site with the Vercel platform directly from your repository:
 
-## Deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+ welcome! Please read the [contribution guidelines](https://github.com/yourgithubprofile/chaininsight/CONTRIBUTING.md) first.
